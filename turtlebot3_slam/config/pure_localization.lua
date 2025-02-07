@@ -58,5 +58,6 @@ TRAJECTORY_BUILDER_2D.motion_filter.max_angle_radians = math.rad(0.1)
 
 POSE_GRAPH.constraint_builder.min_score = 0.65
 POSE_GRAPH.constraint_builder.global_localization_min_score = 0.7
+POSE_GRAPH.optimization_problem.log_solver_summary = true
 
 return options
